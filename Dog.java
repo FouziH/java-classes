@@ -24,7 +24,7 @@ public class Dog {
 
         System.out.println("The total age of the dogs is: " + totalDogYears);
 
-          System.out.println("Main Method finished");
+        System.out.println("Main Method finished");
 
 
 
