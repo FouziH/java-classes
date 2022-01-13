@@ -1,15 +1,20 @@
 public class Dog {
     String breed;
-    String hasOwner;
+    boolean hasOwner;
     int age;
 
-    public Dog() {
+    public Dog(String dogBreed, boolean dogOwned, int dogYears) {
         System.out.println("Constructor invoked!");
-        
+        breed = dogBreed;
+        hasOwner = dogOwned;
+        age = dogYears;
+
     }
 
 
     public static void main(String[] args) {
+        System.out.println("Main Method Started");
+        Dog fido = new Dog("poodle", false, 4);
 
     }
 }
