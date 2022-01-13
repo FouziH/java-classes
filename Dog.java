@@ -21,7 +21,11 @@ public class Dog {
 
         System.out.println("Two dogs created: a " + fido.breed + " and a " + nunzio.breed);
         System.out.println("The statement that fido is older dog is: " + isFidoOlder);
-        
+
+        System.out.println("The total age of the dogs is: " + totalDogYears);
+
+          System.out.println("Main Method finished");
+
 
 
     }
