@@ -18,7 +18,11 @@ public class Dog {
         Dog nunzio = new Dog("shiba inu", true, 12);
         boolean isFidoOlder = fido.age > nunzio.age;
         int totalDogYears = fido.age  + nunzio.age;
+
+        System.out.println("Two dogs created: a " + fido.breed + " and a " + nunzio.breed);
+        System.out.println("The statement that fido is older dog is: " + isFidoOlder);
         
+
 
     }
 }
